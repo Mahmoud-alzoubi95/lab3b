@@ -1,4 +1,3 @@
-
 var saturn = 'saturn';
 var mars = 'mars';
 
@@ -37,4 +36,3 @@ if (planet == mars) {
      
 }
 document.write(image)
-
