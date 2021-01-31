@@ -1,12 +1,19 @@
 var saturn = 'saturn';
 var mars = 'mars';
-
 var planet = prompt('which on of these planets you prefer , mars or saturn?');
+while (planet !=='mars' && planet !=='saturn'){
+    planet = prompt('please choose your prefer planet!');
+}
+var x = prompt('how many times you went to see these planets?')
+            alert('you are lucky ');
+
+
+
 M77(planet);
 
-//while (planet !=='mars' && planet !=='saturn'){
-    //planet = prompt('please choose your prefer planet!');
-//}
+while (planet !=='mars' && planet !=='saturn'){
+    planet = prompt('please choose your prefer planet!');
+}
 
 
 function M77(planet){
@@ -14,7 +21,7 @@ function M77(planet){
     var ph1 = document.createElement("img");
     var pho = document.createElement("img");
     
-    //var x = prompt('how many times you went to see these planets?')
+    
     
     //for(n=0 ; n<x ; n++ ){
     
@@ -34,7 +41,7 @@ function M77(planet){
     
          }
 
-         
+
          document.write(image)
          
     }
