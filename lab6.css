@@ -1,0 +1,56 @@
+*{
+    margin: 0%;
+}
+
+body {
+
+    background-color: rgba(161, 78, 78, 0.5)
+}
+
+main section h2 {
+
+    background-color: rgba(250, 249, 249, 0.5) ;
+    font-style: italic ; 
+
+
+}
+
+header{
+    background-color: rgba(33, 163, 129, 0.5)
+}
+
+#x li{
+    list-style-type: none;
+
+    background-color: rgba(151, 151, 151, 0.5) ;
+    display: inline-block;
+color: brown;
+ font-style: italic;
+
+}
+
+header nav p {
+
+    font-style: italic;
+    text-align: center;
+}
+
+
+.y {
+    list-style-type: none;
+
+    background-color: rgb(252, 249, 249) ;
+color: rgb(231, 109, 109);
+ font-style: italic;
+
+}
+
+main section article { 
+
+    font-style: italic;
+    color: rgb(32, 1, 1);
+    display: inline-block;
+    font-style: bold;
+
+
+}
